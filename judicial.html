@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width">
+		<meta name="format-detection" content="telephone=no">
+		<title>
+		</title>
+		<title>Главная</title>
+		<link rel="stylesheet" href="judicial_files/template.css">
+		<link rel="stylesheet" href="judicial_files/style.css">
+		<script src="judicial_files/script.js" type="text/javascript"></script>
+		<script src="judicial_files/script_002.js" type="text/javascript"></script>
+	</head>
+	<body><script id="__bs_script__">//<![CDATA[
+  (function() {
+    try {
+      var script = document.createElement('script');
+      if ('async') {
+        script.async = true;
+      }
+      script.src = '/browser-sync/browser-sync-client.js?v=2.29.1'.replace("HOST", location.hostname);
+      if (document.body) {
+        document.body.appendChild(script);
+      }
+    } catch (e) {
+      console.error("Browsersync: could not append script tag", e);
+    }
+  })()
+//]]></script><script async="" src="judicial_files/browser-sync-client.js"></script>
+
+		<script>
+			var mapPoints = [
+				{
+					"coords": [
+						"55.736067332933",
+						"37.410228732501"
+					],
+					"options": [
+						{
+							"id": "10531",
+							"departament": "child",
+							//"hintContent": "«СМ-Стоматология» на ул. Ярцевская",
+							//"balloonContent": "ул. Ярцевская, д. 8<div><a href=\"/contacts/sm-stomatologiya-na-ul-yartsevskaya/\"></a></div>"
+						},
+						{
+							"iconLayout": "default#image",
+							"iconImageHref": "/src/i/geopoint.svg",
+							"iconImageSize": [49, 62],
+							"iconImageOffset": [-25, -55]
+						}
+					]
+				},
+				{
+					"coords": [
+						"55.708747694591",
+						"37.725082949286"
+					],
+					"options": [
+						{
+							"id": "4762",
+							"departament": "stom",
+							//"hintContent": "«СМ-Стоматология» на Волгоградском проспекте ",
+							//"balloonContent": "Волгоградский проспект, д. 42, стр. 12<div><a href=\"/contacts/sm-stomatologiya-na-volgogradskom-prospekte-vzroslaya/\"></a></div>"
+						},
+						{
+							"iconLayout": "default#image",
+							"iconImageHref": "/src/i/geopoint.svg",
+							"iconImageSize": [49, 62],
+							"iconImageOffset": [-25, -55]
+						}
+					]
+				},
+				{
+					"coords": [
+						"55.825689",
+						"37.498105"
+					],
+					"options": [
+						{
+							"id": "6164",
+							"departament": "child",
+							//"hintContent": "«СМ-Стоматология» в Старопетровском проезде",
+							//"balloonContent": "Старопетровский проезд, 7А, строение 22, 2 этаж<div><a href=\"/contacts/sm-stomatologiya-v-staropetrovskom-proezde/\"></a></div>"
+						},
+						{
+							"iconLayout": "default#image",
+							"iconImageHref": "/src/i/geopoint.svg",
+							"iconImageSize": [49, 62],
+							"iconImageOffset": [-25, -55]
+						}
+					]
+				}
+			];
+		</script>
+		<div class="wrapper index-page">
+			<div class="wrapper__box">
+				<header class="header js-header-stick stick">
+					<div class="alert-toolbar">
+						<div class="alert-toolbar__wrap"><a class="alert-toolbar__content" href="#">Уважаемые пациенты! В связи с техническими неполадками в настоящее время могут быть сложности с дозвоном в контакт-центр.</a></div>
+					</div>
+					<div class="header__top">
+						<div class="header__top-wrap"><a class="header__logo" href="#">
+								<picture> <img src="judicial_files/logo.svg" loading="lazy" alt="Логотип"></picture></a>
+							<div class="header__call">
+								<div class="header__caption">Круглосуточная запись по телефону:</div>
+								<div class="header__phone call_phone_1"><a href="tel:+74951532433">+7 (495) 153-24-33</a></div>
+							</div>
+							<div class="header__buttons"><a class="header__button header__button_question" href="#" data-target=".popup-form-question">Задать вопрос</a><a class="header__button js-open-popup" href="#" data-target=".popup-form-callback">Обратный звонок</a><a class="header__button header__button_sign" href="#" data-target=".popup-form-ambulance">Вызвать  скорую</a></div>
+						</div>
+					</div>
+					<div class="header__bottom">
+						<div class="header__bottom-wrap">
+							<div class="header__search">
+								<div class="header__search-row">
+									<form method="GET" action="">
+										<input name="site-search" type="text" placeholder="Поиск по сайту">
+										<button type="submit"></button>
+										<div class="header__search-toggle"></div>
+									</form>
+								</div>
+							</div>
+							<nav class="header__menu">
+								<ul class="header__menu-box">
+									<li><a class="header__link" href="#">Главная</a></li>
+									<li><a class="header__link header__link_services">Услуги</a>
+										<div class="header__submenu">
+											<ul>
+												<li><a href="#">Скорая медицинская помощь</a></li>
+												<li><a href="#">Бригада анестезиологии и реанимации</a></li>
+												<li><a href="#">Скорая помощь для детей</a></li>
+												<li><a href="#">Детская неотложка</a></li>
+												<li><a href="#">Скорая помощь для беременных</a></li>
+												<li><a href="#">Госпитализация</a></li>
+												<li><a href="#">Транспортировка больных и пострадавших</a></li>
+												<li><a href="#">Перевозка больных в регионах</a></li>
+												<li><a href="#">Медицинское сопровождение в дороге</a></li>
+												<li><a href="#">Медицинское сопровождение мероприятий</a></li>
+												<li><a href="#">Психиатрическая помощь на дому</a></li>
+												<li><a href="#">Вызов врача на дом</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a class="header__link" href="#">Цены</a></li>
+									<li><a class="header__link header__link_about" href="#">О нас</a>
+										<div class="header__submenu">
+											<ul>
+												<li><a href="#">Врачи</a></li>
+												<li><a href="#">Автопарк</a></li>
+												<li><a href="#">Новости</a></li>
+												<li><a href="#">Правовая информация</a></li>
+												<li><a href="#">Частые вопросы</a></li>
+												<li><a href="#">Информация для юридических лиц</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a class="header__link" href="#">Отзывы</a></li>
+									<li><a class="header__link" href="#">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</header>
+				<section class="b-banner">
+					<div class="container"><a class="b-banner__image" href="#">
+							<picture>
+								<source srcset="judicial_files/b-banner-mobile.png 1x" media="(max-width: 768px)" loading="lazy"><img src="judicial_files/b-banner.jpg" loading="lazy">
+							</picture></a></div>
+				</section>
+				<section class="b-headline">
+					<div class="container">
+						<div class="b-headline__title">
+							<h1>Заголовок страницы</h1>
+						</div>
+					</div>
+				</section>
+				<section class="b-text-dark">
+					<div class="container">
+						<div class="b-text-dark__container text">
+							<p>Служба скорой помощи «Доктор 03» регулярно оказывает 
+медицинское сопровождение массовых мероприятий для юридических лиц. В 
+связи с этим у компаний, желающих заключить договор со скорой помощью, 
+возникает множество вопросов относительно взаимодействия с нашей службой
+ скорой помощи. Ниже вы можете найти ответы на самые распространенные 
+вопросы:</p>
+						</div>
+					</div>
+				</section>
+				<section class="b-text">
+					<div class="container">
+						<div class="b-text__container text">
+							<p><b>Служба скорой помощи «Доктор 03»</b><br>- ООО «Доктор 
+03»ОГРН 1117746308173 (свидетельство о государственной регистрации 
+юридического лица выдано 19.04.2011 МИ ФНС № 46 по г. Москва, бланк 
+серия 77 № 012676278).</p>
+							<p><b>Юридический и почтовый адрес Службы скорой помощи «Доктор 03»</b><br>125130, г. Москва, ул. Клары Цеткин, д.33, корп.24</p>
+							<p><b>Служба помощи на дому «СМ-Клиника»</b><br>- ООО «Дэрайс» 
+ОГРН 1037739596322 (свидетельство о государственной регистрации 
+юридического лица выдано 12.02.2003 Управлением МНС России по г. 
+Москва.Лицензия на осуществление медицинской деятельности 77 № 
+007376313)</p>
+							<p><b>Юридический и почтовый адрес Служба помощи на дому «СМ-Клиника»</b><br>127299, г. Москва, ул. Космонавта Волкова, 9/2.</p>
+							<p>Все права на тексты, фотографии и иные материалы, размещенные 
+на страницах сайта www.doctor03.ru, принадлежат владельцам и охраняются в
+ соответствии с законодательством РФ. Любое использование или 
+копирование материалов сайта возможно только при письменном согласии 
+владельцев и обязательном указании ссылки на источник информации.</p>
+						</div>
+					</div>
+				</section>
+				<section class="b-text">
+					<div class="container">
+						<div class="b-text__container text">
+							<h3>Адреса и телефоны органов власти, осуществляющих надзор</h3>
+							<p><b>Департамент здравоохранения г. Москвы.</b><br>Адрес: 127006, г.Москва, Оружейный переулок, д.43, тел. (499) 251-83-00</p>
+							<p><b>Росздравнадзор: Управление Росздравнадзора по г. Москве и Московской области.</b><br>Адрес:127206, г. Москва, ул. Вучетича, дом 12а, тел.: +7 (495) 611-47-74.</p>
+							<p><b>Роспотребнадзор: Управление Федеральной службы по надзору в
+ сфере защиты прав потребителей и благополучия человека по городу 
+Москве. </b><br>Адрес:129626, г. Москва, Графский переулок, д. 4/9, тел.(495) 687-40-35, факс (495) 616-65-69.</p>
+						</div>
+					</div>
+				</section>
+				<section class="b-licenses">
+					<div class="container">
+						<div class="b-licenses__title">
+							<h2>Лицензии</h2>
+						</div>
+						<div class="b-licenses__items"><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a><a class="b-licenses__item" href="http://localhost:3000/i/b-licenses.jpg" data-fslightbox="b-licenses">
+								<picture><img src="judicial_files/b-licenses.jpg" loading="lazy"></picture></a></div>
+						<button class="b-licenses__show-more" type="button">Показать еще</button>
+					</div>
+				</section>
+				<section class="b-text">
+					<div class="container">
+						<div class="b-text__container text">
+							<h3>Политика</h3>
+							<ul><b>Цели обработки персональных данных:</b>
+								<li>создание условий для обеспечения гарантий прав граждан на 
+получение медицинской помощи в соответствии с требованиями федеральных 
+законов и нормативных правовых актов;</li>
+								<li>создание условий для обеспечения гарантий прав граждан при 
+трудоустройстве, работе, обучении, предоставлении различного вида льгот в
+ соответствии с требованиями Трудового кодекса Российской Федерации, 
+федеральных законов и нормативных правовых актов.</li>
+							</ul>
+							<ul><b>Цели обработки персональных данных:</b>
+								<li>Принципы обработки персональных данных:</li>
+								<li>осуществление обработки персональных данных на законной и справедливой основе;</li>
+								<li>осуществление обработки персональных данных с согласия 
+субъекта персональных данных на обработку его персональных данных, за 
+исключением случаев, предусмотренных федеральным законом;</li>
+								<li>строгое выполнение требований по обеспечению безопасности персональных данных и сведений, составляющих врачебную тайну;</li>
+								<li>ограничение обработки персональных данных достижением конкретных, заранее определенных и законных целей;</li>
+								<li>исключение обработки персональных данных, несовместимой с целями сбора и обработки персональных данных;</li>
+								<li>исключение объединения баз данных, содержащих персональные 
+данные, обработка которых осуществляется в целях, несовместимых между 
+собой;</li>
+								<li>обеспечение достоверности обрабатываемых персональных 
+данных, их достаточности, а в необходимых случаях и актуальности по 
+отношению к заявленным целям обработки персональных данных;</li>
+								<li>опубликование или обязательное раскрытие персональных данных, если это предусмотрено федеральным законом;</li>
+								<li>обязательное удаление или уточнение неполных или неточных данных;</li>
+								<li>хранение персональных данных в формах, позволяющих 
+определить субъекта персональных данных не дольше, чем этого требуют 
+цели обработки персональных данных, если срок хранения персональных 
+данных не установлен федеральным законом, договором, стороной которого, 
+выгодоприобретателем или поручителем по которому является субъект 
+персональных данных;</li>
+								<li>уничтожение или обезличивание персональные данные по 
+достижении целей обработки или в случае утраты необходимости в 
+достижении этих целей, если иное не предусмотрено федеральным законом;</li>
+								<li>информирование граждан в доступной форме, в том числе с 
+использованием сети Интернет, об осуществляемой медицинской деятельности
+ и о медицинских работниках, об уровне их образования и об их 
+квалификации;</li>
+								<li>осуществление прямых контактов с пациентами с помощью 
+средств связи только при условии предварительного оформления согласия 
+пациента.</li>
+							</ul>
+							<ul><b>Меры по обеспечению безопасности персональных данных:</b>
+								<li>Обеспечение безопасности персональных данных достигается: 
+назначением должностных лиц, ответственных за организацию и обеспечение 
+безопасности персональных данных;</li>
+								<li>изданием документов, определяющих политику в отношении 
+обработки персональных данных, локальных актов по вопросам обработки 
+персональных данных, а также локальных актов, устанавливающих процедуры,
+ направленные на предотвращение и выявление нарушений законодательства 
+Российской Федерации, устранение последствий таких нарушений;</li>
+								<li>определением угроз безопасности персональных данных при их обработке в информационных системах персональных данных;</li>
+								<li>применением правовых, организационных и технических мер по 
+обеспечению безопасности персональных данных в соответствии со ст.19 
+Федерального закона «О персональных данных» и требованиями других 
+нормативных правовых актов;</li>
+								<li>использованием обезличивания персональных данных;</li>
+								<li>осуществлением внутреннего контроля соответствия обработки 
+персональных данных федеральному закону и принятым в соответствии с ним 
+нормативным правовым актам, требованиям к защите персональных данных, 
+политике в отношении обработки персональных данных, локальным актам;</li>
+								<li>ознакомлением работников, непосредственно осуществляющих 
+обработку персональных данных, с положениями законодательства Российской
+ Федерации о персональных данных, в том числе требованиями к защите 
+персональных данных, документами, определяющими политику в отношении 
+обработки персональных данных, локальными актами по вопросам обработки 
+персональных данных;</li>
+								<li>аттестацией информационных систем персональных данных по требованиям безопасности информации;</li>
+								<li>непрерывным совершенствованием методов и способов обеспечения безопасности персональных данных.</li>
+							</ul>
+							<ul><b>Права и обязанности оператора:</b>
+								<li>отстаивать свои интересы в суде;</li>
+								<li>предоставлять персональные данные субъектов третьим лицам, 
+если это предусмотрено действующим законодательством (налоговые, 
+правоохранительные органы и др.);</li>
+								<li>отказывать в предоставлении персональных данных в случаях предусмотренных законодательством;</li>
+								<li>использовать персональные данные субъекта без его согласия, в случаях предусмотренных законодательством.</li>
+							</ul>
+							<ul><b>Права и обязанности субъекта персональных данных:</b>
+								<li>Субъект персональных данных имеет право: требовать уточнения
+ своих персональных данных, их блокирования или уничтожения в случае, 
+если персональные данные являются неполными, устаревшими, 
+недостоверными, незаконно полученными или не являются необходимыми для 
+заявленной цели обработки, а также принимать предусмотренные законом 
+меры по защите своих прав;</li>
+								<li>требовать перечень своих персональных данных, обрабатываемых Оператором и источник их получения;</li>
+								<li>получать информацию о сроках обработки своих персональных данных, в том числе о сроках их хранения;</li>
+								<li>требовать извещения всех лиц, которым ранее были сообщены 
+неверные или неполные его персональные данные, обо всех произведенных в 
+них исключениях, исправлениях или дополнениях;</li>
+								<li>обжаловать в уполномоченный орган по защите прав субъектов 
+персональных данных или в судебном порядке неправомерные действия или 
+бездействия при обработке его персональных данных.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section class="b-text">
+					<div class="container">
+						<div class="b-text__container text">
+							<h3>Политика конфидициальности</h3>
+							<p>1. ВВЕДЕНИЕ <br> Настоящая Политика конфиденциальности 
+определяет, каким образом doctor03.ru обрабатывает (собирает, 
+использует, хранит и раскрывает) информацию, полученную от пользователей
+ на веб-сайте https://www.doctor03.ru/ (далее - Сайт). Данная Политика 
+конфиденциальности относится к Сайту и всем продуктам и услугам, 
+предлагаемым группой компаний «СМ-Клиника», содержит информацию в том 
+числе о файлах «cookie», об использовании файлов «cookie» Сайтом и 
+третьими сторонами.<br> Интернет-сайт https://www.doctor03.ru/ (далее — 
+«Сайт») использует файлы cookie и схожие технологии, чтобы 
+оптимизировать работу Сайта и гарантировать максимальное удобство 
+пользователям (далее — «Пользователи»), предоставляя персонализированное
+ взаимодействие с Сайтом, запоминая предпочтения в области маркетинга и 
+контента Сайта, а также помогая получить нужную Пользователю информацию и
+ целевые предложения. <br> Фиксации подлежат сведения о перемещениях на 
+Сайте, но не о посетителях Сайта, обработка персональной информации 
+Пользователя не производится без согласия Пользователя. <br>Настоящая 
+Политика конфиденциальности распространяется непосредственно на сайт 
+https://www.doctor03.ru/ и на информацию, получаемую с его помощью. Она 
+не распространяется ни на какие другие сайты и не применима к веб-сайтам
+ третьих лиц, которые могут содержать упоминание о нашем Сайте и с 
+которых могут делаться ссылки на Сайт, а также ссылки с этого Сайта на 
+другие сайты сети Интернет.<br>При использовании данного сайта 
+Пользователь подтверждает свое согласие на использование файлов cookie в
+ соответствии с всплывающим окном-уведомлением в отношении данного типа 
+файлов, в противном случае Пользователю необходимо соответствующим 
+образом изменить настройки используемого браузера либо отказаться от 
+посещения Сайта.<br>Любые предоставленные Пользователем данные 
+приравниваются Владельцем Сайта к конфиденциальной информации. Внедрение
+ соответствующих технических и организационных мер позволяют обеспечить 
+безопасность личных данных Пользователя от несанкционированного 
+разглашения или доступа, изменения, неправильного использования, 
+аварийного или незаконного уничтожения либо потери.<br></p>
+							<p>2. ИНФОРМАЦИЯ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ<br> Во время просмотра любой 
+страницы Сайта на компьютер Пользователя загружается страница Сайта, а 
+также небольшой текстовый файл под названием «cookie», позволяющий 
+владельцу Сайта определить был ли конкретный компьютер (и, вероятно, его
+ Пользователь) на этом сайте раньше. Это происходит во время повторного 
+посещения сайта посредством проверки компьютера Пользователя на наличие 
+файла «cookie», оставшегося с прошлого посещения. <br> Любая обработка 
+всех полученных данных, включая, но не ограничиваясь, персональные, 
+производится на территории Российской Федерации. <br></p>
+							<p>2.1. АНОНИМНОЕ ИСПОЛЬЗОВАНИЕ САЙТА <br> Пользователь может 
+посетить Сайт, оставаясь анонимом и не раскрывая своих персональных 
+данных. При первом посещении Сайт спросит согласие на размещение файлов 
+cookie на устройстве Пользователя и на отслеживание его поведения при 
+пользовании Сайтом. <br> При несогласии Пользователя с вышеописанной практикой возможно отказаться (не давать согласие). <br>
+ Каждый браузер уникален, поэтому необходимо обратиться к функции 
+«Помощь» браузера Пользователя, чтобы узнать, как настроить работу с 
+файлами «cookie». <br> Любые личные данные, полученные Сайтом в 
+анонимной форме (т.е. в неидентифицируемой с конкретной личностью форме,
+ не позволяющей делать какие-либо выводы относительно личности 
+Пользователя) используются для статистических целей и для внутренней 
+оценки на предмет улучшения продуктов и услуг Владельца Сайта. Данные не
+ будут обрабатываться для каких-либо других целей или вне сферы действия
+ настоящей Политики конфиденциальности, за исключением тех случаев, 
+когда это прямо разрешено или требуется применимым законодательством. <br> </p>
+							<p>2.2. УПРАВЛЕНИЕ НАСТРОЙКАМИ БРАУЗЕРА ПОЛЬЗОВАТЕЛЯ, КАСАЮЩИМИСЯ ФАЙЛОВ COOKIE.<br>
+ Большинство браузеров изначально настроены на прием файлов cookie. 
+Пользователь может изменить настройки браузера на конкретном устройстве:
+ полный отказ от файлов cookie, удаление с устройства имеющихся файлов 
+cookie или получение предупреждения перед размещением файла cookie. <br>
+ Отказ от приема файлов cookie может повлиять на удобство пользования 
+Сайтом; отдельные функции и услуги будут недоступны Пользователю. <br> 
+При использовании разных устройств (смартфон, планшет, компьютер и т.д.)
+ необходимо произвести настройку браузера каждого устройства. <br></p>
+							<p>3. ИНФОРМАЦИЯ О «COOKIE» <br> Файл «cookie» небольшой фрагмент
+ данных, среди которых часто содержится уникальный анонимный 
+идентификатор, отправленный веб-сервером и хранимый на жестком диске 
+устройства Пользователя. Веб-клиент (обычно веб-браузер) всякий раз при 
+попытке открыть страницу сайта пересылает этот фрагмент данных 
+веб-серверу в составе HTTP-запроса. <br> Файлы cookie широко 
+используются владельцами сайтов для обеспечения работы сайтов или 
+повышения эффективности работы, а также для получения аналитической 
+информации. <br> Некоторый контент или приложения на Сайте, включая 
+рекламу, могут обслуживаться независимыми третьими лицами. Они могут 
+размещать файлы cookie на устройстве Пользователя в собственных целях. 
+Сайт не контролирует применяемые этими третьими лицами технологии 
+отслеживания или то, каким образом они могут использоваться, и не несет 
+ответственности за любые действия или политики третьих лиц. 
+Предотвратить размещение таких сторонних файлов cookie и отслеживание с 
+их помощью, можно соответствующим образом отрегулировав или изменив 
+настройки своего браузера. За дополнительной информацией Пользователю 
+необходимо обратиться к инструкциям своего браузера. <br> При посещении 
+страницы с контентом, вставленным, например с веб-сайтов YouTube или 
+Vimeo, данные поставщики услуг могут создавать собственные cookie-файлы в
+ браузере Пользователя. Сайт не контролирует использование этих 
+cookie-файлов и не может получить к ним доступ в силу особенностей 
+работы cookie-файлов — доступ к ним имеет лишь та сторона, которая 
+создавала их изначально. Более подробная информация об этих 
+cookie-файлах размещена на веб-сайтах третьих сторон.</p>
+							<p>4. СБОР И ИСПОЛЬЗОВАНИЕ ИНФОРМАЦИИ <br> Файлы cookie используются в различных целях в том числе, чтобы: <br>  облегчить Владельцу Сайта получение информации о посещениях Пользователями Сайта. <br>
+ анализировать обобщенную и другую информацию, не связанную с 
+идентификацией отдельных Пользователей (например, об операционной 
+системе, версии браузера и URL-адресе, с которого выполнен переход на 
+данную страницу Сайта, в том числе из электронного письма или 
+объявления). <br> анализировать информацию о посещении страниц Пользователями для совершенствования Сайта, маршрутов посещения Сайтов. <br> помогать Пользователю в получении необходимой информации. <br> предоставлять персонализированный контент, ориентированный на интересы Пользователей. <br>
+ определять количество посетителей и то, как они используют Сайт, для 
+повышения эффективности Сайта и для наилучшего понимания интересов 
+аудитории Сайта.</p>
+							<p>5. СРОК ХРАНЕНИЯ ФАЙЛОВ COOKIE <br> Некоторые файлы cookie 
+действуют с момента входа Пользователя на Сайт до конца конкретной 
+сессии работы в браузере. При закрытии браузера эти файлы становятся 
+ненужными и автоматически удаляются. Такие файлы cookie называются 
+«сеансовыми». <br> Некоторые файлы cookie сохраняются на устройстве и в 
+промежутке между сессиями работы в браузере — они не удаляются после 
+закрытия браузера. Такие файлы cookie называются «постоянными». Срок 
+хранения постоянных файлов cookie на устройстве различается для разных 
+файлов cookie. Сайт использует постоянные файлы cookie в различных 
+целях: например, частоту посещения Пользователями Сайта, изменение 
+характера использования Сайта, а также для оценки эффективности 
+размещенной информации. <br> Файлы cookie могут размещаться на 
+устройстве Пользователя администрацией Сайта. Эти файлы cookie 
+называются «собственными». Некоторые файлы cookie могут размещаться на 
+устройстве Пользователя другими операторами. Такие файлы cookie 
+называются файлами «третьих лиц» (см. п. 3 настоящей Политики 
+конфиденциальности).</p>
+							<p>6. ИСПОЛЬЗОВАНИЕ ВЕБ-ТРЕКИНГА И COOKIE-ФАЙЛОВ <br> Сайт не 
+использует программы для сбора персональных данных или IP-адресов 
+отдельных лиц. Данные используются исключительно анонимным образом в 
+сводной форме в статистических целях, а также для разработки Сайта. <br>
+ Сайт не создает индивидуальный профиль действий Пользователей в 
+интернете. Содержимое постоянных cookie-файлов ограничивается 
+идентификационным номером. Имя, адрес электронной почты, IP-адрес и т.д.
+ не сохраняются. Исключение: Cookie-файлы Google Analytics. <br> 
+Cookie-файлы Google Analytics могут использоваться в небольшом объеме. 
+Эти cookie-файлы используют IP-адрес для распознавания Пользователя, 
+однако не проводят персональную идентификацию. Другими словами, 
+информация собирается анонимно. Сookie-файлы собирают информацию о том, 
+как Пользователи используют Сайт, затем эти сведения используются для 
+составления отчетов. В качестве альтернативы Пользователь может 
+отказаться от использования cookie-файлов Google Analytics для 
+отслеживания вашей активности на всех веб-сайтах, пройдя по следующей 
+ссылке: Google Analytics Opt-out Browser Add-on 
+(https://tools.google.com/dlpage/gaoptout)</p>
+						</div>
+					</div>
+				</section>
+				<div class="footer">
+					<footer>
+						<div class="footer__top">
+							<div class="container">
+								<div class="footer__cols">
+									<div class="footer__col">
+										<div class="footer__title">Доктор 03</div>
+										<div class="footer__menu">
+											<ul>
+												<li><a href="#">Услуги</a></li>
+												<li><a href="#">Цены</a></li>
+												<li><a href="#">О нас</a></li>
+												<li><a href="#">Отзывы</a></li>
+												<li><a href="#">Контакты</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="footer__col">
+										<div class="footer__title">Популярное</div>
+										<div class="footer__menu">
+											<ul>
+												<li><a href="#">Вызов скорой помощи</a></li>
+												<li><a href="#">Скорая для детей</a></li>
+												<li><a href="#">Скорая для беременных</a></li>
+												<li><a href="#">Медицинская транспортировка</a></li>
+												<li><a href="#">Сопровождение мероприятий</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="footer__col">
+										<div class="footer__title">СМ-Клиника</div>
+										<div class="footer__menu">
+											<ul>
+												<li><a href="#">Детские клиники</a></li>
+												<li><a href="#">Центр хирургии</a></li>
+												<li><a href="#">Пластическая хирургия</a></li>
+												<li><a href="#">Стоматология</a></li>
+												<li><a href="#">Центр ЭКО</a></li>
+												<li><a href="#">Онкологический центр</a></li>
+												<li><a href="#">Косметология</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="footer__col">
+										<div class="footer__24"><b>Круглосуточная запись</b> по телефону:</div>
+										<div class="footer__phone"><div class="fc_phone vcard"><span id="ct_phone_2" class="nb-tlf tel">+7 (495) 153-24-33</span></div></div>
+										<div class="footer__social">
+											<div class="social-footer">
+												<div class="social-footer__item"><a class="social-footer__link social-footer__link_vk" href="https://vk.com/smclinica" target="_blank" rel="nofollow"></a></div>
+												<div class="social-footer__item"><a class="social-footer__link social-footer__link_tel" href="https://t.me/sm_clinic" target="_blank" rel="nofollow"></a></div>
+												<div class="social-footer__item"><a class="social-footer__link social-footer__link_ok" href="https://ok.ru/smclinica" target="_blank" rel="nofollow"></a></div>
+											</div>
+										</div>
+										<div class="footer__appstore"><a href="#" target="_blank"><img src="judicial_files/footer-appstore.png"></a><a href="#" target="_blank"><img src="judicial_files/footer-googleplay.png"></a><a href="#" target="_blank"><img src="judicial_files/footer-appgallery.png"></a></div>
+										<div class="footer__payments">Мы принимаем к оплате
+											<div class="footer__cards"><img src="judicial_files/footer-mir.svg" loading="lazy"><img src="judicial_files/footer-visa.svg" loading="lazy"><img src="judicial_files/footer-mastercard.svg" loading="lazy"><img src="judicial_files/footer-master.svg" loading="lazy"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer__bot">
+							<div class="container">
+								<noindex>
+									<div class="footer__box"><a class="footer__logo"><img src="judicial_files/logo.svg"></a>
+										<div class="footer__footnote">
+											<div class="footer__text">
+												<p><b>© 2002-2024 ООО «СМ-Клиника»</b></p>
+												<p>Все материалы данного сайта являются объектами авторского
+ права (в том числе дизайн). Запрещается копирование, распространение (в
+ том числе путем копирования на другие сайты и ресурсы в Интернете) или 
+любое иное использование информации и объектов без предварительного 
+письменного согласия правообладателя. Указание ссылки на источник 
+информации является обязательным.</p>
+												<p><b>ООО «Доктор 03» Лицензия №ЛО-77-01-012341 от 19 мая 2016г. <br><a class="footer__black-link" href="#"> Политика «СМ-Клиника» в отношении обработки персональных данных</a></b></p>
+												<p>Материалы, размещенные на данной странице, носят 
+информационный характер и предназначены для образовательных целей. 
+Посетители сайта не должны использовать их в качестве медицинских 
+рекомендаций. Определение диагноза и выбор методики лечения остается 
+исключительной прерогативой вашего лечащего врача! ООО «Доктор 03» не 
+несёт ответственности за возможные негативные последствия, возникшие в 
+результате использования информации, размещенной на сайте doctor03.ru</p>
+											</div>
+											<div class="footer__text">
+												<div class="footer__rate">
+													<div><img src="judicial_files/rate.png"></div>
+													<div>Независимая оценка качества оказания услуг медицинским организациям<a href="#">Участвовать в голосовании</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="footer__warning">
+										<div>Имеются противопоказания. Необходимо проконсультироваться со специалистом</div>
+									</div>
+								</noindex>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+			<div class="popup-win">
+				<div class="popup-win__overlay"></div>
+				<div class="popup-win__wrap">
+					<div class="popup-win__box">
+						<div class="popup-win__close-field js-popup-close"></div>
+									<div class="popup-form popup-form-callback">
+										<div class="popup-form__wrap">
+											<form class="form popup-form__form js-feedback-submit" method="POST" action="">
+												<div class="popup-form__header">
+													<div class="popup-form__logo"><img src="judicial_files/logo.svg" loading="lazy"></div>
+													<div class="popup-form__title">ХОТИТЕ, МЫ ВАМ ПЕРЕЗВОНИМ?</div>
+													<div class="popup-form__close js-popup-close">
+														<div></div>
+													</div>
+												</div>
+												<div class="popup-form__body">
+													<div class="popup-form__box">
+														<div class="popup-form__row">
+															<input class="popup-form__input _name" name="name" placeholder="Ваше имя">
+														</div>
+														<div class="popup-form__row">
+															<input class="popup-form__input _phone" name="phone" placeholder="Ваш телефон">
+														</div>
+													</div>
+												</div>
+												<div class="popup-form__footer">
+													<div class="popup-form__submit">
+														<button class="popup-form__button" type="submit">Жду звонка</button>
+														<input type="hidden" name="submit" value="callback-submit">
+													</div>
+													<div class="popup-form__private">Нажимая на кнопку, вы даете согласие на <a href="#">обработку своих персональных данных</a></div>
+												</div>
+												<div class="popup-form__bot">Мы поможем быстро найти то, что Вам нужно!</div>
+											</form>
+										</div>
+									</div>
+									<div class="popup-form popup-form-feedback">
+										<div class="popup-form__wrap">
+											<form class="form popup-form__form js-feedback-submit" method="POST" action="">
+												<div class="popup-form__header">
+													<div class="popup-form__logo"><img src="judicial_files/logo.svg" loading="lazy"></div>
+													<div class="popup-form__title">ХОТИТЕ, МЫ ВАМ ПЕРЕЗВОНИМ?</div>
+													<div class="popup-form__close js-popup-close">
+														<div></div>
+													</div>
+												</div>
+												<div class="popup-form__body">
+													<div class="popup-form__box">
+														<div class="popup-form__row">
+															<div class="form__cols">
+																<div class="form__col">
+																	<div class="form__input">
+																		<div class="form__icon">
+																			<div class="i-form-name"></div>
+																		</div>
+																		<input class="popup-form__input _name" name="name" placeholder="Ваше имя">
+																		<div class="form__error i-err"></div>
+																	</div>
+																</div>
+																<div class="form__col">
+																	<div class="form__input">
+																		<div class="form__icon">
+																			<div class="i-form-phone"></div>
+																		</div>
+																		<input class="popup-form__input _phone" name="phone" placeholder="Ваш телефон">
+																		<div class="form__error i-err"></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="popup-form__row">
+															<div class="form__row">
+																<div class="form__textarea">
+																	<div class="form__textarea-title">Ваше сообщение:</div>
+																	<textarea class="popup-form__input" name="msg" value="" placeholder=""></textarea>
+																</div>
+															</div>
+														</div>
+														<div class="popup-form__row">
+															<div class="popup-form__private">Нажимая на кнопку, вы даете согласие на <a href="#">обработку своих персональных данных</a></div>
+														</div>
+													</div>
+												</div>
+												<div class="popup-form__footer">
+													<div class="popup-form__submit">
+														<button class="popup-form__button" type="submit">
+															<div class="btn btn_red">
+																<div class="icon-border">
+																	<div class="i-form-submit"></div>
+																</div><span>Отправить заявку</span>
+															</div>
+														</button>
+														<input type="hidden" name="submit" value="callback-submit">
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="popup-form popup-form-reviews">
+										<div class="popup-form__wrap">
+											<form class="form popup-form__form js-feedback-submit" method="POST" action="">
+												<div class="popup-form__header">
+													<div class="popup-form__icon">
+														<div class="i-feed-blue"></div>
+													</div>
+													<div class="popup-form__title">Оставить отзыв</div>
+													<div class="popup-form__close js-popup-close">
+														<div></div>
+													</div>
+												</div>
+												<div class="popup-form__body">
+													<div class="popup-form__text">Общество с ограниченной ответственностью Клиника «Центр ЭКО» оказывает помощь в лечении всех форм мужского и женского бесплодия,</div>
+													<div class="popup-form__box">
+														<div class="popup-form__row">
+															<div class="form__cols">
+																<div class="form__col">
+																	<div class="form__input">
+																		<div class="form__icon">
+																			<div class="i-form-name"></div>
+																		</div>
+																		<input class="popup-form__input _name" name="name" placeholder="Ваше имя">
+																		<div class="form__error i-err"></div>
+																	</div>
+																</div>
+																<div class="form__col">
+																	<div class="form__input">
+																		<div class="form__icon">
+																			<div class="i-form-email"></div>
+																		</div>
+																		<input class="popup-form__input _email" name="email" placeholder="Ваша почта">
+																		<div class="form__error i-err"></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="popup-form__row">
+															<div class="form__row">
+																<div class="form__textarea">
+																	<div class="form__textarea-title">Ваш отзыв:</div>
+																	<textarea class="popup-form__input" name="msg" value="" placeholder=""></textarea>
+																</div>
+															</div>
+														</div>
+														<div class="popup-form__row">
+															<div class="popup-form__private">
+																<div class="form__checkbox form__checkbox_dark">
+																	<input class="form__checkbox-input _cb-req" type="checkbox" name="private" id="private-popup-3" checked="checked">
+																	<label class="form__checkbox-label fs-12" for="private-popup-3">Я принимаю <a href="http://localhost:3000/judicial/terms.html">Соглашение о конфиденциальности личной информации</a> , даю согласие на обработку персональных данных и соглашаюсь с политикой конфиденциальности.</label>
+																	<div class="form__error i-err">Ошибка</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="popup-form__footer">
+													<div class="popup-form__submit">
+														<button class="popup-form__button" type="submit">
+															<div class="btn btn_red">
+																<div class="icon-border">
+																	<div class="i-form-submit"></div>
+																</div><span>Отправить отзыв</span>
+															</div>
+														</button>
+														<input type="hidden" name="submit" value="review-submit">
+													</div>
+												</div>
+												<div class="form__loading">
+													<div class="form__loading-bg">Отправка<br>данных...</div>
+												</div>
+											</form>
+										</div>
+									</div>
+						<!--+question-form()-->
+						<!--+feedback-doctor-form()-->
+						<!--+success-form()-->
+									<div class="popup-form popup-form-search">
+										<div class="popup-form__wrap">
+											<div class="popup-form__form">
+												<div class="mobile-search">
+													<div class="mobile-search__wrap">
+														<div class="mobile-search__goback js-popup-close"></div>
+														<div class="mobile-search__box">
+															<div>
+																<input class="mobile-search__input" id="mobile-search" type="text" name="s" placeholder="Поиск по сайту">
+															</div>
+															<div class="mobile-search__reset"></div>
+														</div>
+														<div class="mobile-search__result"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="popup-form popup-form-goback">
+										<div class="popup-form__wrap">
+											<form class="form popup-form__form js-feedback-submit" method="POST" action="">
+												<div class="popup-form__header">
+													<div class="popup-form__logo"><img src="judicial_files/logo.svg" loading="lazy"></div>
+													<div class="popup-form__title-2">Вы действительно хотите прервать запись?</div>
+													<div class="popup-form__close js-popup-close">
+														<div></div>
+													</div>
+												</div>
+												<div class="popup-form__body">
+													<div class="popup-form__content">
+														<div class="popup-form__caption">Если у вас возникли вопросы, позвоните нам по телефону:</div>
+														<div class="popup-form__phone"><a href="tel:+74952925987">+7 (495) 292-59-87</a></div>
+													</div>
+												</div>
+												<div class="popup-form__footer">
+													<div class="popup-form__buttons">
+														<div class="popup-form__cancel js-popup-close">Прервать</div>
+														<div class="popup-form__continue">Продолжить</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="popup-form popup-form-menu">
+										<div class="popup-info">
+											<div class="popup-form__close js-popup-close">
+												<div></div>
+											</div>
+											<div class="popup-info__body">
+												<div class="popup-info__menu"><a class="js-goto js-popup-close" href="#eko">Об Эко</a><a class="js-goto js-popup-close" href="#about">О клинике</a><a class="js-goto js-popup-close" href="#programs">Программы</a><a class="js-goto js-popup-close" href="#price">Цены</a><a class="js-goto js-popup-close" href="#reviews">Отзывы</a></div>
+											</div>
+										</div>
+									</div>
+									<div class="popup-form popup-form-worktime">
+										<div class="popup-form__wrap">
+											<div class="popup-form__form popup-form__form_bg-white">
+												<div class="popup-info__header"><img class="popup-info__icon" src="judicial_files/clock.svg"><img class="popup-info__logo" src="judicial_files/logo_002.svg">
+													<div class="popup-form__close js-popup-close">
+														<div></div>
+													</div>
+												</div>
+												<div class="popup-info__body">
+													<div class="popup-info__title">Время работы:</div>
+													<div class="popup-info__text">
+														Пн-пт: <span>9:00 - 21:00</span><br>
+														Сб: <span>9:00 - 20:00</span><br>
+														Вс: <span>9:00 - 19:00</span>
+														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="popup-form popup-form-modal">
+										<div class="popup-form__wrap">
+											<div class="popup-form__form popup-form__form_bg-white">
+												<div class="popup-info__header"><img class="popup-info__icon" src="judicial_files/info.svg">
+													<div class="popup-form__close js-popup-close">
+														<div></div>
+													</div>
+												</div>
+												<div class="popup-info__body"></div>
+											</div>
+										</div>
+									</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+</body></html>
